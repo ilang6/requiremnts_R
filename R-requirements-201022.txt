@@ -1,0 +1,11 @@
+icd
+dxpr
+qdap
+tm
+wordcloud
+plotrix
+dendextend
+ggthemes
+RWeka
+easyalluvial
+logistf 

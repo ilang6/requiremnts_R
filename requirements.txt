@@ -1,12 +1,3 @@
-epitools
-matplotlib_venn
-pdp
-dcurves
-SurvRegCensCov
-eha
-flexsurv
 cobalt
-DMwR
-weights
-Zelig
-rbounds
+surveregcenscov
+pscl

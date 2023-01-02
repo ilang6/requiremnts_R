@@ -10,3 +10,4 @@ pandasgui
 dataprep
 fastparquet
 pyarrow
+label-studio

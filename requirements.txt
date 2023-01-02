@@ -1,3 +1,12 @@
-cobalt
-surveregcenscov
-pscl
+setuptools
+fastparquet
+tableone
+PsmPy
+matplotlib-venn
+statsmodels
+tabulate
+dftest
+pandasgui
+dataprep
+fastparquet
+pyarrow

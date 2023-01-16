@@ -1,13 +1,4 @@
-setuptools==65.6.3
-fastparquet
-tableone
-PsmPy
-matplotlib-venn
-statsmodels
-tabulate
-dftest
-pandasgui
-dataprep
-fastparquet
-pyarrow
-label-studio
+Lightgbm
+Catboost
+Sklearn
+Polars

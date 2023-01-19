@@ -1,5 +1,22 @@
-Lightgbm
-Catboost
-Sklearn
-Polars
-wheel>=0.38.0 # not directly required, pinned by Snyk to avoid a vulnerability
+#!/bin/bash
+
+# Set the directory where backups will be stored
+backup_dir="/path/to/backup/directory"
+
+# Set the date format for the backup file
+date=$(date +"%Y-%m-%d")
+
+# Set the MySQL user and password
+mysql_user="username"
+mysql_password="password"
+
+# Get a list of all databases
+databases=`mysql --user=$mysql_user --password=$mysql_password -e "SHOW DATABASES;" | tr -d "| " | grep -v Database`
+
+# Perform a backup for each database
+for db in $databases; do
+    if [[ "$db" != "information_schema" ]] && [[ "$db" != "performance_schema" ]] && [[ "$db" != "mysql" ]] && [[ "$db" != _* ]] ; then
+        echo "Creating backup of $db"
+        mysqldump --force --opt --user=$mysql_user --password=$mysql_password --databases $db > "$backup_dir/$db-$date.sql"
+    fi
+done

@@ -1,6 +1,6 @@
-polars
-sklearn
-catboost
-lightgbm
-setuptools==65.5.1 
-numpy
+geepack
+SurvRegCensCov
+matplotlib_venn
+marginaleffects
+DMwR
+cobalt

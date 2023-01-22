@@ -4,3 +4,4 @@ catboost
 lightgbm
 setuptools==65.5.1 
 numpy
+wheel>=0.38.0 # not directly required, pinned by Snyk to avoid a vulnerability

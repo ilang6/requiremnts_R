@@ -1,6 +1,2 @@
-geepack
-SurvRegCensCov
-matplotlib_venn
-marginaleffects
-DMwR
-cobalt
+weightit
+adjustedcurves

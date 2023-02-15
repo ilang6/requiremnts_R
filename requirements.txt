@@ -1,2 +1,2 @@
-weightit
-adjustedcurves
+polars
+sklearn==1.2.1

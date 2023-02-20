@@ -1,2 +1,3 @@
-polars
-sklearn==1.2.1
+adjustedCurves
+tabnet
+tidymodles

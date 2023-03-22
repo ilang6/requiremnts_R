@@ -1,2 +1,7 @@
-sklearn
-shap
+pandas_profiling
+NumPy
+Pandas
+Matplotlib
+OpenPyxl
+Seaborn
+tensorflow

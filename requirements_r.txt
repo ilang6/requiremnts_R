@@ -4,3 +4,4 @@ randomForestSRC
 ggRandomForests
 survXgboost
 reReg
+epiR

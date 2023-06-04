@@ -2,7 +2,6 @@ pyPheWAS
 statsmodels
 imbalanced-learn
 TxGNN
-SHEPHERD
 blas
 PyG
 tqdm
@@ -11,8 +10,6 @@ shap
 flax
 Transformers
 PyTDC
-_libgcc_mutex
-_openmp_mutex
 aiohttp
 ase
 async-timeout

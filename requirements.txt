@@ -213,7 +213,6 @@ scrapy
 send2trash
 sentencepiece
 service-identity
-service_identity
 setproctitle
 setuptools
 shortuuid

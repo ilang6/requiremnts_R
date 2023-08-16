@@ -1,3 +1,14 @@
+pandasql
+sebp
 scikit-survival
-sweetviz
-reval
+sksurv
+pysurvival
+shap
+tqdm
+slicer
+scikit-learn
+scipy
+packaging
+cloudpickle
+numba
+kmeans
